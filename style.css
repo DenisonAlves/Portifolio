@@ -1,0 +1,49 @@
+main{
+    font-family: 'Fira Sans', 'Arial';
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem 4rem;
+}
+
+h1,h2,h3,a,p,ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: grid;
+    grid-column: 1 / -1;
+    justify-content: end;    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 30px;      
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.125rem;
+}
+
+
+.apresentacao {
+    display: grid;
+    align-self: center;
+}
+
+.apresentacao h1{
+    font-size: 2rem;
+}
+
+.lobo {
+    width: 100%;
+    max-width: 360px;
+    display: block;        
+    grid-column: 1;
+}
