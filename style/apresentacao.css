@@ -1,0 +1,28 @@
+.apresentacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    gap: 100px;
+    align-items: center;
+}
+
+.lobo {
+    max-width: 100%;
+    display: block;
+}
+
+.apresentacao-texto h1{
+    font-size: 4.5rem;
+}
+
+.apresentacao-texto h1::before{
+    content: '';
+    position: relative;
+    background-image: url('../img/detalhe.svg');
+}
+
+.apresentacao-texto p{
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+

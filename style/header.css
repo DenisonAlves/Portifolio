@@ -1,0 +1,15 @@
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao-lista {
+    display: flex;
+    gap: 20px;    
+}
+
+.navegacao-lista li {
+    padding: 10px 20px;
+    list-style: none;
+}
+

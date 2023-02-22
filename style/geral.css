@@ -1,0 +1,19 @@
+body{
+    font-family: 'fira sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
